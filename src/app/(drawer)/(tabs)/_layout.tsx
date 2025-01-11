@@ -27,6 +27,16 @@ export default function TabsLayout() {
           tabBarLabel: 'Pedidos',
         }}
       />
+
+      <Tabs.Screen
+        name="product"
+        options={{
+          tabBarButton: () => null,
+          tabBarItemStyle: {
+            display: 'none'
+          }
+        }}
+      />
     </Tabs>
   )
 }
