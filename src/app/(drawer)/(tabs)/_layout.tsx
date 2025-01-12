@@ -18,6 +18,7 @@ export default function TabsLayout() {
           tabBarLabel: 'Produtos',
         }}
       />
+      
       <Tabs.Screen
         name="order"
         options={{
